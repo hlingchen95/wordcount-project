@@ -1,0 +1,13 @@
+<h1>This is home page</h1>
+
+{{hithere}}
+
+<form action="{% url 'count' %}">
+  <textarea name="fulltext" rows="5" cols="40"></textarea>
+  <br />
+  <input type="submit" name="" value="Count!" />
+</form>
+
+<form action="{% url 'about' %}">
+  <input type="submit" name="" value="About" />
+</form>
